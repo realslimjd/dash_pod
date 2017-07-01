@@ -1,8 +1,12 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 table {
     text-align: center;
     border-style: solid;
     border-color: rgb(26, 66, 161);
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 2px;
 }
 
