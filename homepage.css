@@ -1,8 +1,13 @@
 table {
     text-align: center;
-    border: 1% solid black;
+    border: 1px solid black;
+    border-style: rounded;
 }
 
-table_name {
+.table_name {
     text-align: left;
+}
+
+.table_header {
+    text-align: center;
 }
