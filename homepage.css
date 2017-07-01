@@ -1,7 +1,9 @@
 table {
     text-align: center;
-    border: 1px solid black;
-    border-style: rounded;
+    border-style: solid;
+    border-color: rgb(26, 66, 161);
+    border-radius: 25px;
+    padding: 2px;
 }
 
 .table_name {
