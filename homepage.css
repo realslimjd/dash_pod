@@ -1,7 +1,7 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     font-style: normal;
-    font-size: 24em;
+    font-size: 24px;
 
 }
 
@@ -10,20 +10,20 @@ table {
     width: 50%;
     text-align: center;
     border-style: solid;
-    border-width: 2em;
+    border-width: 2px;
     border-color: rgb(26, 66, 161);
-    border-radius: 10em;
-    padding: 1em;
+    border-radius: 2px;
+    padding: 2px;
 }
 
 tr {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 th {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .table_name {
