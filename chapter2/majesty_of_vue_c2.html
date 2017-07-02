@@ -4,7 +4,7 @@
 </head>
 <body>
   <div id="app">
-    <h1>{{ message.first + ' ' + message.last }}</h1>
+    <h1>{{ message }}</h1>
     <input v-model="message">
   </div>
 </body>
@@ -14,7 +14,7 @@
 new Vue({
   el: '#app',
   data: {
-    message: {first: 'James', last: 'DelVesco'}
+    message: 'Hello Vue'
   }
 })
 </script>
