@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Hello Vue</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.js"></script>
+</head> 
+<body>
+    <div id="app">
+        <h1 v-if="gender=='female'">Hello Miss {{ name }}!</h1>
+        <h1 v-if="gender=='male'">Hello Mister {{ name }}</h1>
+        <h1 v-else>Hello {{ name }}</h1>
+        <p>Enter your gender (if you have one):</p>
+        <input v-model="gender"></input>
+        <p>Enter your name:</p>
+        <input v-model="name"></input>
+        <pre>
+            {{ $data }}
+        </pre>
+    </div>
+</body>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            gender: '',
+            name: ''
+        }
+    })
+</script>
+</html>
