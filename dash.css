@@ -39,7 +39,7 @@ td, th {
 }
 
 .modal-container {
-  width: 300px;
+  width: 500px;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -49,9 +49,15 @@ td, th {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+img {
+    width: 480px;
+    height: auto;
+    clear: right;
+}
+
 .modal-header h3 {
   margin-top: 0;
-  color: #42b983;
+  color: blue;
 }
 
 .modal-body {
@@ -60,6 +66,7 @@ td, th {
 
 .modal-default-button {
   float: right;
+  overflow: auto;
 }
 
 /*

@@ -47,15 +47,15 @@
 
               <div class="modal-body">
                 <slot name="body">
-                  default body
+                    default body
                 </slot>
               </div>
 
               <div class="modal-footer">
                 <slot name="footer">
-                  default footer
+                  Weekly mileage
                   <button class="modal-default-button" @click="$emit('close')">
-                    OK
+                    Close
                   </button>
                 </slot>
               </div>
@@ -72,19 +72,20 @@
         :columns="gridColumns"
         :filter-key="searchQuery">
       </demo-grid>
-      <modal v-if="showModal" @close="showModal = false">
     </div>
 
     <!-- modal test button -->
     <div id="app">
-      <button id="show-modal" @click="showModal = true">Show Modal</button>
+      <button id="show-modal" @click="showModal = true">James DelVesco</button>
       <!-- use the modal component, pass in the prop -->
       <modal v-if="showModal" @close="showModal = false">
         <!--
           you can use custom content here to overwrite
           default content
         -->
-        <h3 slot="header">custom header</h3>
+        <h3 slot="header">James DelVesco</h3>
+        <div slot="body"><img src="jdc.png"></div>
+        <!-- <p slot="footer">Weekly mileage</p> -->
       </modal>
     </div>
 
@@ -170,8 +171,6 @@
       }
     })
     </script>
-
-    
 
     </body>
 </html>
